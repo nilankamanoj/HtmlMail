@@ -27,6 +27,11 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
+                      <Component id="lblInfo" min="-2" pref="94" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnSend" min="-2" pref="233" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
                       <Component id="jLabel2" pref="120" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="txtSubject" min="-2" pref="233" max="-2" attributes="0"/>
@@ -37,15 +42,9 @@
                       <Component id="txtReciever" min="-2" pref="233" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel3" pref="120" max="32767" attributes="0"/>
-                          <Component id="lblInfo" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jLabel3" pref="120" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnSend" max="32767" attributes="0"/>
-                          <Component id="jScrollPane1" pref="233" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="233" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
@@ -70,12 +69,12 @@
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="154" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="22" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnSend" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblInfo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblInfo" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -127,9 +126,6 @@
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblInfo">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel4"/>
-      </Properties>
     </Component>
   </SubComponents>
 </Form>
