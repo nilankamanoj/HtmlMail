@@ -1,4 +1,4 @@
-package lk.nianka.htmlmail;
+package lk.nianka.htmlmail.util;
 
 import javax.mail.*;
 import javax.mail.internet.MimeMessage;
